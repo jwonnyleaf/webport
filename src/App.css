@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.font-satoshi-title {
+  font-size: clamp(3rem, 10vw + 0.5rem, 11.25rem);
+  line-height: 1;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (min-width: 1920px) {
+  .section-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
